@@ -1,0 +1,167 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.main {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  border-radius: 20px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='1000' preserveAspectRatio='none' viewBox='0 0 1440 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1179%26quot%3b)' fill='none'%3e%3crect width='1440' height='1000' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1180%26quot%3b)'%3e%3c/rect%3e%3cpath d='M799.81 80.43 a286.85 286.85 0 1 0 573.7 0 a286.85 286.85 0 1 0 -573.7 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-135.74 622.14 a286.34 286.34 0 1 0 572.68 0 a286.34 286.34 0 1 0 -572.68 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M707.032%2c462.993C807.946%2c464.153%2c918.347%2c457.447%2c975.138%2c374.021C1037.998%2c281.679%2c1034.978%2c158.867%2c980.414%2c61.393C924.571%2c-38.366%2c821.239%2c-110.124%2c707.032%2c-104.93C599.746%2c-100.051%2c524.953%2c-9.866%2c473.573%2c84.443C424.935%2c173.72%2c396.024%2c281.446%2c449.391%2c367.979C500.889%2c451.482%2c608.932%2c461.866%2c707.032%2c462.993' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1072.87 255.88 a235.45 235.45 0 1 0 470.9 0 a235.45 235.45 0 1 0 -470.9 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1278.884%2c848.261C1378.652%2c850.077%2c1474.565%2c800.694%2c1523.719%2c713.855C1572.209%2c628.19%2c1562.723%2c522.23%2c1510.751%2c438.631C1461.625%2c359.611%2c1371.928%2c319.395%2c1278.884%2c320.031C1187.037%2c320.659%2c1099.514%2c362.893%2c1052.445%2c441.765C1004.208%2c522.595%2c1003.209%2c622.983%2c1049.016%2c705.214C1096.087%2c789.715%2c1182.173%2c846.501%2c1278.884%2c848.261' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M61.691%2c307.131C113.329%2c305.107%2c161.886%2c283.348%2c189.716%2c239.804C219.967%2c192.472%2c230.095%2c133.424%2c204.751%2c83.293C176.915%2c28.233%2c123.287%2c-16.934%2c61.691%2c-13.429C3.931%2c-10.142%2c-27.601%2c47.542%2c-55.698%2c98.114C-82.636%2c146.598%2c-112.147%2c202.214%2c-84.987%2c250.574C-57.485%2c299.543%2c5.57%2c309.331%2c61.691%2c307.131' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1179'%3e%3crect width='1440' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='7.64%25' y1='111%25' x2='92.36%25' y2='-11%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1180'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(97%2c 85%2c 240%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.img1, .img2{
+  width: 500px;
+  height: 500px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+  gap: 30px;
+}
+/* .img2{
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+} */
+/* input[type="file"]::before {
+  content: 'Upload';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+} */
+
+/* input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0.9);
+} */
+input{
+  color: white;
+}
+.btn{
+  background-color: #646cff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+.result{
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #FFF #FFF transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent #FF3D00 #FF3D00;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+    
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+    

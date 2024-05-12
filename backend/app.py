@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 output=""
 

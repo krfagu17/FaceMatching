@@ -18,7 +18,7 @@ function App() {
 
   const handleMatchFaces = async () => {
     setLoading(true);
-    
+
     try {
       const formData = new FormData();
       formData.append('image1', image1);

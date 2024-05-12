@@ -11,6 +11,9 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 output=""
 
+@app.route("/")
+def start():
+    return "The MBSA Server is Running"
 @app.route('/api/face-match', methods=['POST'])
 def face_match():
     try:
@@ -60,5 +63,3 @@ def face_match():
         print(e)
         return jsonify({'error': 'Internal server error'}), print("this is error:",e)
 
-if __name__ == '__main__':
-    app.run(debug=True)

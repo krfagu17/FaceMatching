@@ -24,7 +24,7 @@ function App() {
       formData.append('image1', image1);
       formData.append('image2', image2);
 
-      const response = await axios.post('http://localhost:5000/api/face-match', formData, {
+      const response = await axios.post('https://face-matching.vercel.app//api/face-match', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
